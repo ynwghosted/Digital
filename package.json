@@ -1,0 +1,21 @@
+{
+  "name": "naija-utility-bot",
+  "version": "1.0.0",
+  "description": "Telegram utility bot for Nigeria",
+  "main": "server.js",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "basic-auth": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "sqlite3": "^5.0.2"
+  },
+  "license": "MIT"
+}

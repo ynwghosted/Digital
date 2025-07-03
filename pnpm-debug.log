@@ -1,0 +1,45 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "naija-utility-bot"
+      version: "1.0.0"
+      description: "Telegram utility bot for Nigeria"
+      main: "server.js"
+      engines: 
+        node: "10.x"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        axios: "^0.21.1"
+        basic-auth: "^2.0.1"
+        dotenv: "^8.2.0"
+        express: "^4.17.1"
+        node-telegram-bot-api: "^0.50.0"
+        sqlite3: "^5.0.2"
+      license: "MIT"
+      readme: "# Hello Node!\n\nThis project includes a Node.js server script and a web page that connects to it. The front-end page presents a form the visitor can use to submit a color name, sending the submitted value to the back-end API running on the server. The server returns info to the page that allows it to update the display with the chosen color. 🎨\n\n[Node.js](https://nodejs.org/en/about/) is a popular runtime that lets you run server-side JavaScript. This project uses the [Fastify](https://www.fastify.io/) framework and explores basic templating with [Handlebars](https://handlebarsjs.com/).\n\n_Last updated: 14 August 2023_\n\n## Prerequisites\n\nYou'll get best use out of this project if you're familiar with basic JavaScript. If you've written JavaScript for client-side web pages this is a little different because it uses server-side JS, but the syntax is the same!\n\n## What's in this project?\n\n← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.\n\n← `public/style.css`: The styling rules for the pages in your site.\n\n← `server.js`: The **Node.js** server script for your new site. The JavaScript defines the endpoints in the site back-end, one to return the homepage and one to update with the submitted color. Each one sends data to a Handlebars template which builds these parameter values into the web page the visitor sees.\n\n← `package.json`: The NPM packages for your project's dependencies.\n\n← `src/`: This folder holds the site template along with some basic data files.\n\n← `src/pages/index.hbs`: This is the main page template for your site. The template receives parameters from the server script, which it includes in the page HTML. The page sends the user submitted color value in the body of a request, or as a query parameter to choose a random color.\n\n← `src/colors.json`: A collection of CSS color names. We use this in the server script to pick a random color, and to match searches against color names.\n\n← `src/seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.\n\n## Try this next 🏗️\n\nTake a look in `TODO.md` for next steps you can try out in your new site!\n\n___Want a minimal version of this project to build your own Node.js app? Check out [Blank Node](https://glitch.com/edit/#!/remix/glitch-blank-node)!___\n\n![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)\n\n## You built this with Glitch!\n\n[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.\n\n- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.\n- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.\n"
+      readmeFilename: "README.md"
+      gitHead: "18b2646ca0aabe0b483132649daf8d279e0b10e2"
+      _id: "naija-utility-bot@1.0.0"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving axios that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/a6f1a4b6-819f-4532-b863-1a22f144c1d3/node_modules/axios"
+      dest: "/rbd/pnpm-volume/a6f1a4b6-819f-4532-b863-1a22f144c1d3/node_modules/.ignored/axios"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/a6f1a4b6-819f-4532-b863-1a22f144c1d3/node_modules/axios' -> '/rbd/pnpm-volume/a6f1a4b6-819f-4532-b863-1a22f144c1d3/node_modules/.ignored/axios'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/a6f1a4b6-819f-4532-b863-1a22f144c1d3/node_modules/axios' -> '/rbd/pnpm-volume/a6f1a4b6-819f-4532-b863-1a22f144c1d3/node_modules/.ignored/axios'"
